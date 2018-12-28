@@ -238,7 +238,8 @@ function getStartEnd() {
 }
 
 function setup() {
-  createButton('test');
+  //createButton('test');
+  startButton = createButton('label');
   noStroke();
   let ratio = 100;
   let size = min(windowHeight, windowWidth);
